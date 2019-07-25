@@ -1,0 +1,48 @@
+.activity-event {
+    margin-bottom: 15px;
+    padding: 10px
+}
+
+.activity-event:nth-child(even) {
+    background: #fafafa
+}
+
+.activity-event:hover {
+    background: #fff8dc
+}
+
+.activity-date {
+    margin-left: 10px;
+    font-weight: normal;
+    color: #999
+}
+
+.activity-content {
+    margin-left: 55px
+}
+
+.activity-title {
+    font-weight: bold;
+    color: #000;
+    border-bottom: 1px dotted #efefef
+}
+
+.activity-description {
+    color: #555;
+    margin-top: 10px
+}
+
+@media (max-width: 480px) {
+    .activity-description {
+        overflow: auto
+    }
+}
+
+.activity-description li {
+    list-style-type: circle
+}
+
+.activity-description ul {
+    margin-top: 10px;
+    margin-left: 20px
+}

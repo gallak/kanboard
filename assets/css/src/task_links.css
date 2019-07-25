@@ -1,0 +1,12 @@
+.task-links-table td {
+    vertical-align: middle
+}
+
+.task-links-task-count {
+    color: #999;
+    font-weight: normal
+}
+
+.task-link-closed {
+    text-decoration: line-through
+}
